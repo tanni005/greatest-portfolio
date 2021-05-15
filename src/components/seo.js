@@ -28,7 +28,7 @@ const Seo = ({ description, lang, meta, title }) => {
   )
 
   const metaDescription = description || site.siteMetadata.description
-  const defaultTitle = site.siteMetadata?.title
+ 
 
   return (
     <Helmet
@@ -36,15 +36,19 @@ const Seo = ({ description, lang, meta, title }) => {
         lang,
       }}
       title={title}
-      titleTemplate={defaultTitle ? `%s | ${defaultTitle}` : null}
+      titleTemplate={'%s'}
       meta={[
         {
           name: `description`,
           content: metaDescription,
         },
         {
+          name: `keywords`,
+          content: `template, portfolio, design portfolio, design template, portfolio template, greatest portfolio, best portfolio template, best design portfolio, best design template, product design, graphic design, free portfolio, free template, free portfolio template, free design template, free design portfolio, free design portfolio template`,
+        },
+        {
           property: `og:title`,
-          content: title,
+          content: 'Greatest Design Portfolio',
         },
         {
           property: `og:description`,
@@ -60,11 +64,11 @@ const Seo = ({ description, lang, meta, title }) => {
         },
         {
           name: `twitter:creator`,
-          content: site.siteMetadata?.social?.twitter || ``,
+          content: '@tanni005',
         },
         {
           name: `twitter:title`,
-          content: title,
+          content: 'Greatest design portfolio',
         },
         {
           name: `twitter:description`,
