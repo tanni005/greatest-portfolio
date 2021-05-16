@@ -1,6 +1,6 @@
 import * as React from "react"
 import { graphql, withPrefix } from 'gatsby'
-import { Link } from 'gatsby-plugin-modal-routing'
+
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"

@@ -53,7 +53,7 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,  
-    `gatsby-plugin-modal-routing`,   
+       
     
     // {
     //   resolve: `gatsby-plugin-google-analytics`,
