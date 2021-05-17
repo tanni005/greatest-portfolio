@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="container">
         <div className="disclamer">
           <h2>Disclaimer</h2>
-          <p>The template was built for helping and providing hope in these tough times. Any similarity to another template, available or unknown, is purely coincidental. You are free to duplicate this template for your personal or professional use. This portfolio is a part of notion and I am not a owner of Notion. Just putting this out there, if it was not clear :) </p>
+          <p>The template was built for helping and providing hope in these tough times. Any similarity to another template, available or unknown, is purely coincidental. You are free to duplicate this template for your personal or professional use. This portfolio is a part of notion and I am not an owner of Notion. Just putting this out there, if it was not clear :) </p>
         </div>
         <div className="product">
           <h2>Have some doubts? Or just wanna chill?</h2>
